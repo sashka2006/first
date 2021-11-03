@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.top-line{
+    color:rgba(238, 1, 1, 0.568);
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 4%;
+}
+.btext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    padding-right: 30px;
+}
+p.btext.s-30{
+    font-size: 30px
+}
+.center-img{
+    display: block;
+    margin: 0 auto;
+}
+.left-logo{
+    display: flex;
+    position: absolute;
+    left: 1%;
+    justify-content: flex-start;
+    height: 30px
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+.flexible{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+  .box-div {
+    width: 800px;
+    height: 600px;
+    background-color: 616163;
+    border-radius: 5px;
+    margin-top: 125px;
+  }
+.box.transparent{
+    width: 800px;
+    height: 600px;
+    background-color: #1c1d20; /* #1c1d20*/
+}
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.child {
+    background-color: 616163;
+    width: 730px;
+    height: 540px;
+    border-radius:5px;
+    border: 5px solid white;
+    }
+.img-s{
+    width: 100px;
+    height: 110px;
+    margin-top: 15%;
+}
+.forma{
+    background-color:616163;
+    border-width: 2px;
+    border-top: 0px;  /* Тут такой мегамем типа лол оно не должно работать но работает так шо все ок*/
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
+    color: white;
+}
+.forma.p{
+    margin-top:20px;
+    height:50px;
+    color: white;
+}
+.followme{
+    height: 50px;
+    width: 165px;
+    margin-top: 25px;
+    background-color: dd255b;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+.minibox-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  .b-text{
+      font-size: 75px;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.parent-t {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: start;
+    align-content: flex-start;
+    }
+.s-text{
+        font-size: 30px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}    
+r-text{
+    color:dd255b;
+}
